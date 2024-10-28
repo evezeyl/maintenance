@@ -44,7 +44,7 @@ done
 find_duplicates () {
   # find duplicated files in a set of directories
   iso_date=$(date -I)
-  fdupes -r1 ${mydirectory} >> ${iso_date}_identical.txt 
+  fdupes -r1A ${mydirectory} >> ${iso_date}_identical.txt 
 }
 
 
